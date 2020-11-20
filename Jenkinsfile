@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("megha1399/img-deploy")
+        app = docker.build("megha1399/edureka")
     }
 
     stage('Test image') {
